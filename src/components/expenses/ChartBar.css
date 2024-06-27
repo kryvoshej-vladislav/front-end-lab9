@@ -1,0 +1,35 @@
+.chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    padding: 0 2rem;
+  }
+  
+  .chart-bar {
+    width: 2%;
+    text-align: center;
+  }
+  
+  .chart-bar__inner {
+    height: 8rem;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(117, 118, 118, 0.46);
+    border-radius: 12px;
+    overflow: hidden;
+    transform: rotate(180deg);
+  }
+  
+  .chart-bar__fill {
+    background-color: #40005d;
+    height: 0; 
+    transition: height 0.3s ease-out;
+  }
+  
+  .chart-bar__label {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
